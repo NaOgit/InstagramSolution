@@ -7,7 +7,6 @@
 .phoneimage{
   width: 450px;
   display: inline-block;
-  border: 2px solid black;
   text-align: center;
 
 }
@@ -23,20 +22,34 @@
   display: inline-block;
   float: right;
   text-align: center;
+  font-family: sans-serif;
 
 }
 
 .imageHeader img{
   margin-top: 25px;
-  width: 150px;
+  width: 195px;
 
 }
 
 .signUpForm p{
-  font-family: sans-serif;
   font-size: 15px;
   font-style: bold;
   width: 200px;
   color: #999;
   margin: auto;
+}
+
+.button{
+  background-color: #3897fa;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 8px 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 3px;
+  font-style: bold;
+
 }
