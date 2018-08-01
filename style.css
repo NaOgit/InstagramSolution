@@ -5,17 +5,38 @@
 }
 
 .phoneimage{
-  height: 200px;
   width: 450px;
   display: inline-block;
-  background-color: green;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+.phoneimage img{
+  width: 400px;
+  margin-top: 40px;
 
 }
 
 .signUpForm{
-  height: 200px;
-  width: 346px;
-  background-color: blue;
+  width: 340px;
   display: inline-block;
+  float: right;
+  text-align: center;
 
+}
+
+.imageHeader img{
+  margin-top: 25px;
+  width: 150px;
+
+}
+
+.signUpForm p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: bold;
+  width: 200px;
+  color: #999;
+  margin: auto;
 }
